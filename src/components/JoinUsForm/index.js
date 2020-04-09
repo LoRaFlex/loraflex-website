@@ -122,7 +122,7 @@ const JoinUsForm = () => {
             name="githubUser"
             defaultValue={state.githubUser}
             id="githubUser"
-            // value={state.githubUser}
+            value={state.githubUser}
             label="GitHub account user"
             className={classes.textField}
             margin="dense"
@@ -134,7 +134,7 @@ const JoinUsForm = () => {
             type="text"
             name="telegramUser"
             id="telegramUser"
-            // value={state.telegramUser}
+            value={state.telegramUser}
             label="Telegram account user"
             className={classes.textField}
             margin="dense"
