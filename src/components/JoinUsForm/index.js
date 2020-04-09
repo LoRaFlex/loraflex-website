@@ -120,7 +120,6 @@ const JoinUsForm = () => {
             required
             type="text"
             name="githubUser"
-            defaultValue={state.githubUser}
             id="githubUser"
             value={state.githubUser}
             label="GitHub account user"
